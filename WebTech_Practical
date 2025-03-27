@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>practical two</title>
+    <link rel="stylesheet" type="text/css" href="mystyles.css">
+</head>
+
+<body>
+    <h1>Welcome to Richfield</h1>
+    <p id="unique">Welcome to Richfield Institute of Technology.
+        A place where you learn about technology and
+        we are located in Cape Town</p>
+
+    <h2>MIT Faculty</h2>
+    <h3>Qualifications</h3>
+
+    <h4>BSC IT</h4>
+    <h5> First Semester Modules</h5>
+    <ul>
+        <li>Web Technology 511</li>
+        <li>Mathematics 511</li>
+        <li>Networks 511</li>
+        <li>Information Systems 511</li>
+        <li>Programming 511</li>
+
+    </ul>
+    <h5>Second Semester Modules</h5>
+    <ol>
+        <li>Web Technology 512</li>
+        <li>Mathematics 512</li>
+        <li>Networks 512</li>
+        <li>Information Systems 512</li>
+        <li>Programming 512</li>
+
+    </ol>
+    <h3> Apply to study with Richfield</h3>
+    <form>
+
+        <Label>Full Name:</Label>
+        <input type="text">
+        <br> <br>
+        <Label>Email:</Label>
+        <input type="text"><br> <br>
+        <Label>Choose a number</Label>
+        <input type="text"><br> <br>
+        <Label>Password:</Label>
+        <input type="text"><br> <br>
+        <Label>Confirm Password</Label>
+
+        <label>Select Qualification</label><select>
+            <option> BSCIT</option>
+            <option> DIT</option>
+            <option> HCIT</option>
+
+
+        </select> <br> <br>
+        <button>Submit </button>
+        <button>Clear </button>
+
+    </form>
+    <h3>BSCIT TIME TABLE</h3>
+    <table border="1">
+        <thead></thead>
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Course</th>
+        </tr>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td>08:00-10:00am</td>
+                <td>Web Technology</td>
+            </tr>
+            <tr>
+                <td>Wednesday</td>
+                <td>10:00-12:00am</td>
+                <td>Neteoks</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>12:00-14:00pm</td>
+                <td>Mathematics</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+    <h4>DIT</h4>
+    <img src="richfield-logo.jpg" alt="image">
+    <h4>HCIT</h4>
+    <h5></h5>
+    <h6></h6>
+    <table>
+
+        <tr><p> <h1>QUALIFICATION-BSC 1st YEAR</h1></tr>
+        <tr style="height: 100px; text-align: center; color: rgb(11, 7, 43);">
+            <th>DATE/TIME</th>
+
+            <th>8:30-9:30</th>
+            <th>9;30-10:30</th>
+            <th>10:30-11:30</th>
+            <th>11:30-12:30</th>
+            <th>12:30-13:30</th>
+            <th>13:30 -14:30</th>
+            <th>14:30-15:30</th>
+            <th>15:30-16:30</th>
+        </tr>
+        <tr style="height: 100px; text-align: center;color: rgb(0, 0, 0);">
+            <th>Monday</th>
+            <td class="Networks">Networks 511</td>
+            <TD class="Programming">Programming 511 </TD>
+            <td class="WebTech">Web Technology 511 </td>
+            <td></td>
+            <td>
+                <H1>L</H1>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+        <tr style="height: 100px; text-align: center;color: rgb(0, 0, 0);">
+            <th>Tuesday</th>
+            <td ></td>
+            <TD> </TD>
+            <td class="Networks">Networks 511</td>
+            <td></td>
+            <td>
+                <h1>U</h1>
+            </td>
+            <td class="INS">INS 511</td>
+            <td class="INS">INS 511</td>
+            <td></td>
+        </tr>
+
+
+        <tr style="height: 100px; text-align: center;color: rgb(0, 0, 0);">
+            <th>Wednesday</th>
+            <td></td>
+            <TD class="Maths">Maths 511</TD>
+            <td class="Maths">Maths 511 </td>
+            <td class="WebTech">Web Technology</td>
+            <td>
+                <h1>N</h1>
+            </td>
+            <td class="Programming">Programming 511</td>
+            <td class="Programming">Programming 511</td>
+            <td></td>
+
+        </tr>
+        <tr style="height: 100px; text-align: center;color: rgb(0, 0, 0);">
+            <th>Thursday</th>
+            <td class="Networks">Networks 511</td>
+            <TD class="INS">INS 511 </TD>
+            <td> </td>
+            <td class="Maths">Mathematics 511</td>
+            <td>
+                <H1>C</H1>
+            </td>
+            <td class="WebTech">Web Technology 511</td>
+            <td class="WebTech">Web Technology</td>
+            <td></td>
+
+        </tr>
+
+        <tr style="height: 100px; text-align: center;color: rgb(0, 0, 0);">
+            <th>Friday</th>
+            <td class="Programming">Programming 511</td>
+            <TD class="Networks">Networks 511 </TD>
+            <td class="Maths">Mathematics 511 </td>
+            <td class="INS">INS 511</td>
+            <td>
+                <h1>H</h1>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
