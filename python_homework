@@ -1,0 +1,6 @@
+i = int(input('Enter a number within the range of 1 through 10: '))
+
+if i == 1:
+    print('i')
+else:
+    print('Error: The number is not 1')
