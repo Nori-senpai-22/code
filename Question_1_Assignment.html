@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>website</title>
     <link rel="stylesheet" href="practice_1.css">
+
+
+
+
 <style>
+
 /* Navigation Section */
 
 nav {
-
-
     height: 100px;
     background-color: #877BB0;
     border-radius: 7px;
@@ -20,24 +23,21 @@ nav {
 
 nav ul {
     list-style-type: none;
-
-
 }
 
 nav ul li {
     display: inline-block;
     padding: 30px;
     font-size: xx-large;
-
 }
 
-a {
+.link {
     text-decoration: none;
     color: rgb(0, 0, 0);
 
 }
 
-a:hover {
+.link:hover {
 
 
     border-radius: 20px;
@@ -61,6 +61,7 @@ body {
     align-items: center;
 
 }
+
 /* This section is for the boxes inside the main container */
 .box-1,
 .box-2,
@@ -93,12 +94,14 @@ button {
     font-size: x-large;
 
 }
+
 button:hover {
     background-color: #877BB0;
     border-radius: 20px;
     border: 3px solid #E6E6FA;
     transition: 0.5s;
 }
+
 button:hover {
     background-color: #877BB0;
     border-radius: 20px;
@@ -113,13 +116,24 @@ button:hover {
     align-items: center;
     padding: 40px;
 }
+
 .button-box-2 {
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 40px;
-  
+
 }
+
+/*Styling the TandC box*/
+.box-4 {
+    background-color: #877BB0;
+    display: flex;
+    margin: 10px;
+    padding-left: 180px;
+    border-radius: 7px;
+}
+
 
 .Header {
     text-align: center;
@@ -140,6 +154,88 @@ button:hover {
 
 }
 
+
+/* Basic styling for placeholder text */
+input {
+    height: 30px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #E6E6FA;
+    border: 2px solid #877BB0;
+}
+
+input:hover {
+    border: 3px solid #E6E6FA;
+    transition: 0.5s;
+}
+
+input::placeholder {
+    color: #888;
+    font-style: italic;
+    opacity: 1;
+
+}
+
+/* Styling for textarea */
+/* This section is for the textarea */
+textarea {
+    height: 100px;
+    width: 500px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #E6E6FA;
+    border: 2px solid #877BB0;
+}
+
+textarea:hover {
+    border: 3px solid #E6E6FA;
+    transition: 0.5s;
+}
+
+/* Styling for placeholder text in a textarea */
+textarea::placeholder {
+    color: #888;
+    font-style: italic;
+    opacity: 1;
+}
+
+
+
+/*Styling the T and Cs */
+.TandC_paragraph {
+    text-align: right;
+    font-size: 15px;
+    cursor: pointer;
+    width: fit-content;
+
+}
+
+.TandC:hover {
+    text-decoration-line: underline;
+    transition: 0.5s;
+    width: 70px;
+    height: 120px;
+    cursor: pointer;
+
+}
+
+#checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#checkbox:hover {
+    border: 3px solid #E6E6FA;
+    transition: 0.5s;
+}
+
+.submit-button {
+    margin-left: 200px;
+    margin-top: 80px;
+}
 
 footer {
     background-color: #877BB0;
@@ -162,23 +258,38 @@ footer li:hover {
     width: 100px;
     cursor: pointer;
 }
+
+
     
 </style>
 
 
+
+
+
+
+
+
+
+
+
+
+
+
     
 
 
+    
+</head>
 
-
-
+<body>
     <center> <!-- Header section -->
         <nav>
             <ul>
-                <li><a href="">Home</a></li>
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contact Us</a></li>
+                <li><a href="" class="link">Home</a></li>
+                <li><a href="" class="link">Features</a></li>
+                <li><a href="" class="link">Pricing</a></li>
+                <li><a href="" class="link">Contact Us</a></li>
             </ul>
         </nav>
     </center>
@@ -196,32 +307,33 @@ footer li:hover {
         </div>
 
         <div class="box-2"> <!-- Product description box -->
-            <p class="Header" >Eco Smart Water Bottle</p>
+            <p class="Header">Eco Smart Water Bottle</p>
             <p class="description">Portable container, typically made of plastic, metal, or glass, designed to
                 hold and transport water or other liquids for drinking
             </p>
             <div class="button-box-2"> <!-- Buy or Cancel options-->
-            <button>Buy Now</button>
-            <button>Cancel</button>
-        </div>
+                <button>Buy Now</button>
+                <button>Cancel</button>
+            </div>
         </div>
 
-        <div class="box-3">  <!-- User input box -->
-            <input type="text" name="">
+        <div class="box-3"> <!-- User input box -->
+            <input type="text"   placeholder="Your Name" >
             <br>
-            <input type="text">
+            <input type="text"  placeholder="Your email">
             <br>
-            <textarea cols="50" rows="10">Yor Message</textarea>
-            <p>I agree to the <a>Terms and Conditions</a></p>
-            <input type="checkbox">
-            <button>Submit</button>
+            <textarea cols="50" rows="10" name="your_message" placeholder="Your Message" ></textarea>
+          <div class="box-4"> <p class="TandC_paragraph">I agree to the <a class="TandC">Terms and Conditions</a></p>
+            <input type="checkbox" name="checkbox" id="checkbox">
+        </div>
+            <button class="submit-button">Submit</button>
         </div>
 
     </div>
 
 
     <center>
-        
+
         <footer> <!-- Footer section -->
             <ul>
                 <li>Facebook</li>
