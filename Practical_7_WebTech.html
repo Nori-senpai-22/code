@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <!-- Metadata for character encoding and responsiveness -->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lecturer Profile</title>
+    </head>
+    <body>
+       <!-- Internal CSS for styling the page -->
+        <style>
+         /* Container for the whole profile */ 
+.container {
+    background-color: #f0f0f0;
+    border:  solid 1px #333;
+    width: 90%;
+max-width: 500px;
+    height: 100%;
+    align-self: center;
+    border-radius: 20px;
+    padding: 50px;
+}
+  /* Container for image and name */        
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 90%;
+max-width: 500px;
+
+}
+  /* Styling for the image */        
+img {
+    
+    margin-left: auto;
+    margin-right: auto;
+    height: 15%;
+    width: 15%;
+    border-radius: 20px;
+
+}
+/* Styling for name inside image container */
+.image-container h1 {
+    margin-right: 20px;
+    font-family: monospace;
+    font-size: 40px;
+    color: #333;
+    width: 300px;
+    border: none ;
+    color: rgb(8, 8, 8);
+}
+   /* Hover effect for headers */       
+h1:hover {
+    background-color: #000000;
+    transition: background-color 0.5s ease;
+    color: white;
+    cursor: pointer;
+}
+h2:hover {
+    background-color: #000000;
+    transition: background-color 0.5s ease;
+    color: white;
+    cursor: pointer;
+}
+h3:hover {
+    background-color: #000000;
+    transition: background-color 0.5s ease;
+    color: white;
+    cursor: pointer;
+}
+/* Common styling for headers */
+          
+h1, h2, h3 {
+   border: solid 1px ;
+    color: rgb(8, 8, 8);
+    padding: 20px;
+    width: 90%;
+max-width: 500px;
+    border-radius: 20px;
+   font-family: monospace;
+    font-size: 40px;
+    
+   
+
+}
+/* Styling for paragraph text */
+p {
+    font-family: monospace;
+    width: 90%;
+max-width: 500px;
+    font-size: 20px;
+    color: #333;
+   
+}    
+     /* Hover effect for paragraph */     
+   p:hover {
+    border: solid 1px #000000;
+    transition: background-color 0.5s ease;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 10px;
+   }  
+
+/* Hover effect for list */
+ol:hover {
+    cursor: pointer;
+    border-radius: 10px;
+}
+  /* Styling for list items */        
+ol li {
+    font-family: monospace;
+    font-size: 20px;
+    color: #333;
+    margin-left: 20px;
+    
+    padding: 5px;
+}
+     /* Hover effect for list items */     
+ol li:hover {
+    border: solid 1px #000000;
+    transition: background-color 0.5s ease;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    width: 90%;
+max-width: 500px;
+}
+</style>
+<!-- Main profile content -->
+        <div class="container">
+           <!-- Image and name of the lecturer -->
+            <h1>Lecturer Profile</h1>
+            <div class="image-container"><h1>Jemina</h1>
+                <img src="image.jpg" alt="Lecturer Jemina's photo"> </div>
+<!--Qualifications of lectuerer-->
+            <h2>Qualifications</h2>
+            <ol>
+                <li>PhD in Computer Science</li>
+                <li>MSc in Software Engineering</li>
+                <li>BSc in Information Technology</li>
+                <li>Certified Java Programmer</li>
+                <li>Certified Python Developer</li>
+                <li>Certified Data Scientist</li>
+                <li>Certified Cloud Solutions Architect</li>
+                <li>Certified Machine Learning Specialist</li>
+            </ol>
+          <!--Description Section-->
+            <h3>Description</h3>
+            <p>A lecturer is someone who teaches at a college or university.
+                They
+                prepare and deliver lessons, explain complex topics, guide
+                students
+                in their learning, and may also help with research. Lecturers
+                usually specialize in a particular subject and work to make
+                learning
+                interesting and easy to understand.</p>
+        </div>
+        <!-- JavaScript prompt and logic -->
+        <script>
+          // Prompt the user to enter a module name
+           let module = prompt("Please enter the module name: ");
+          // Check what module was entered and respond accordingly
+           if (module == 'webtech') {       // always put the conditon in the brackets
+                alert('You are a first year student');
+                document.write("Welcome to Web Technologies");
+           } 
+else if (module == 'Programming 621')  {  // == is for comparing 
+    alert('You are a second year student');
+
+    
+}
+else if (module == 'Programming 731')  {   
+    alert('You are a third year student');
+
+    
+}
+
+else {
+   alert('You are not a student') 
+}
+
+        
+
+            </script>
+    </body>
+</html>
