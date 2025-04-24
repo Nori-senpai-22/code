@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body, input, button {
+            font-family: monospace;
+        }
+        h1 {
+            margin-bottom :60px;
+
+            
+        }
+        input {
+            height: 25px;
+            width: 190px;
+        }
+        button {
+                height: 40px;
+                background-color: rgb(255, 255, 255) ;
+                border-radius: 3px;
+                border: 1px solid black;
+                margin-top: 30px;
+
+        }
+        button:hover {
+            color: white;
+            background-color: black;
+            transition: background-color ease-in-out 1s;
+           
+            
+        }
+        form {
+            background-color: rgb(226, 226, 226) ;
+            border: 1px solid black;
+            padding: 10px;
+            align-items: center;
+            width: 100%;
+            max-width: 300px;
+            height: 300px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<form onsubmit="greeting()" >
+    <center>
+    <h1>Login Details</h1>
+    <input type="text" placeholder=" name" id="name">
+    <br> <br>
+    <input type="text" placeholder=" surname">
+    <br>
+    <br>
+    <button buttononclick>Submit</button>
+</center>
+</form>
+
+
+ <script>
+    
+    
+  /*  
+// a function 
+function greeting(){ 
+   document.write("Welcome to WebTech");
+    
+}
+// calling the function
+//greeting();*/
+
+//function moduleWelcome(module){
+ //   alert("Welcome to" + module);
+//}
+
+//let module = prompt("Please enter your module: ")
+
+
+ /*function add( first,second){
+    let sum = first + second;
+    return sum;
+ }
+let num1=prompt("Enter first  number: ");
+let num2=prompt("Enter a second number: ");
+let myvalue= add(num1,num2);
+alert('the sum is '+ myvalue);*/
+
+/*
+function ageCheck(){
+    let age =Number(prompt("Enter your age: "));
+    if (age>=20){
+        alert("Congratulations you earned a promotion");
+    }
+    else{
+        alert("check again next time");
+    }
+}
+ageCheck();*/
+function validate(){
+    let myname = document.getElementById("name").value;
+    if (myname==""){
+        alert('please enter all the fields');
+    
+    } else {alert("Welcome" + myname)}
+}
+    </script>
+</body>
+</html>
