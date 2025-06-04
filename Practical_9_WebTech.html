@@ -430,3 +430,438 @@ label {
     font-size: small;
 }
 </style>
+
+
+
+
+
+
+
+
+<style>
+/* ===== COMMENTED CSS ===== */
+
+/* ===== General Styles 
+body {
+    font-family: monospace; /* Sets the font style to monospace for the entire page 
+    font-size: 20px;         /* Sets base font size 
+}   ===== */
+
+/* ===== Navigation Bar 
+.navbar {
+    background-color: rgba(89, 131, 252, 1); /* Fallback background color 
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%); /* Gradient background 
+    padding: 20px; /* Adds space inside navbar 
+}
+
+.brand-name {
+    font-size: 30px; /* Larger font size for brand name 
+    color: white; /* White text 
+    margin-left: 50px; /* Indent from the left 
+}
+
+.nav-links {
+    text-align: right; /* Align nav links to the right 
+    margin: 0px;
+    padding-right: 130px; /* Space to the right 
+    padding-bottom: 20px; /* Space below nav links 
+}
+
+.nav-links li {
+    display: inline-block; /* Makes list items horizontal 
+    margin: 0px;
+    padding-right: 20px; /* Space between links 
+    font-size: 30px; /* Larger font size 
+}
+
+.nav-links a {
+    color: white; /* White link color 
+    text-decoration: none; /* Removes underline from links 
+    margin: 0px;
+}===== */
+
+/* ===== Hero Section ===== 
+.hero-section {
+    color: white; /* White text 
+    background-color: rgba(89, 131, 252, 1); /* Solid fallback background 
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%); /* Gradient background 
+    text-align: center; /* Center-aligns content 
+    padding: 30px; /* Inner spacing 
+    margin-top: 2px; /* Slight space from top 
+}
+
+.hero-title {
+    padding: 20px; /* Space around the title */
+}
+
+.hero-description {
+    padding: 10px; /* Space around the description 
+}
+
+.cta-button {
+    height: 40px;
+    width: 150px;
+    border-radius: 20px; /* Makes button oval 
+    border: 0px; /* Removes default border 
+    color: rgb(94, 94, 206); /* Blue text 
+    font-family: monospace; /* Monospace font 
+}
+
+/* ===== Features Section ===== 
+.features-section {
+    margin: auto;
+    width: 100%; /* Full width 
+    text-align: center; /* Center-align all text 
+}
+
+.feature-card {
+    background-color: rgb(232, 234, 236); /* Light gray background 
+    height: 250px;
+    width: 380px;
+    border-radius: 10px; /* Rounded corners 
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 20 px; /* NOTE: has a space that should be removed (`20px`) 
+    float: left; /* Aligns cards side by side (not responsive) 
+}
+
+.feature-icon {
+    margin: 10px; /* Space around icon 
+}
+
+/* ===== About Section ===== 
+.about-section {
+    float: left;
+    padding: 50px;
+    background-color: rgb(227, 231, 235); /* Light gray background 
+}
+
+.about-text {
+    float: left;
+    width: 40%;
+    padding: 20px; /* Space inside the text container 
+}
+
+.about-highlight {
+    margin-right: 100px;
+    margin-top: 50px;
+    width: 30%;
+    height: 300px;
+    float: right;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: rgba(89, 131, 252, 1); /* Fallback 
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%); /* Gradient 
+}
+
+.about-highlight h4 {
+    font-size: xxx-large; /* Very large heading 
+    color: white;
+    margin-top: 115px; /* Push text downward 
+}
+
+/* ===== Team Section ===== 
+.section-title {
+    text-align: center;
+    font-size: xxx-large;
+    margin-top: 850px; /* Very large top margin — may cause layout issues 
+}
+
+.team-section {
+    text-align: center;
+}
+
+.team-member {
+    background-color: rgb(248, 245, 245); /* Very light background 
+    margin: 20px;
+    width: 280px;
+    height: 280px;
+    display: inline-block; /* Aligns members in a row 
+    font-size: large;
+    font-weight: 100;
+    text-align: center;
+}
+
+.team-photo {
+    height: 110px;
+    width: 110px;
+    border-radius: 50px; /* Circular photo 
+    margin: 15px;
+}
+
+.team-name {
+    font-weight: bold; /* Bold name 
+}
+
+.team-role {
+    font-style: italic; /* Italic role text 
+}
+
+/* ===== Contact Section ===== 
+.contact-section {
+    color: white;
+    padding: 30px;
+    background-color: rgba(89, 131, 252, 1); /* Fallback 
+    background-image: linear-gradient(90deg, rgba(89, 131, 252, 1) 0%, rgba(41, 53, 86, 1) 100%);
+}
+
+div h2 {
+    text-align: center;
+}
+
+.contact-form-section {
+    margin: auto;
+    width: 25%; /* Restricts width of form 
+    padding: 10px;
+}
+
+#full-name,
+#email,
+#phone {
+    font-size: small;
+    width: 450px;
+    height: 20px;
+    font-family: monospace;
+    margin-top: 5px;
+}
+
+label {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+#message {
+    width: 450px;
+    height: 100px;
+}
+
+.submit-button {
+    height: 40px;
+    width: 460px;
+    border-radius: 5px;
+    border: 0px;
+    color: rgb(94, 94, 206);
+    font-family: monospace;
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* ===== Footer Section 
+.footer {
+    background-color: rgb(60, 61, 61); /* Dark footer 
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+}
+
+.footer li {
+    display: inline-block; /* Horizontal list 
+    padding: 10px;
+    color: white;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none; /* No underline 
+    font-size: medium;
+}
+
+.footer-note {
+    color: white;
+    font-size: small;
+}
+===== */
+
+
+
+
+
+
+
+    
+!DOCTYPE html
+html lang="en"
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechSolutions</title>
+
+    <!-- Font Awesome for icons -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+    <!-- External stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- ===== Navigation Bar ===== -->
+    <nav class="navbar">
+        <!-- Company brand/logo -->
+        <h4 class="brand-name">TechSolutions</h4>
+
+        <!-- Navigation links -->
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="features.html">Features</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- ===== Hero Section ===== -->
+    <div class="hero-section">
+        <!-- Welcome headline -->
+        <h1 class="hero-title">Welcome to the Future</h1>
+
+        <!-- Description text -->
+        <p class="hero-description">
+            Innovative solutions for modern businesses.
+            Experience the power of cutting-edge technology.
+        </p>
+
+        <!-- Call-to-action button -->
+        <button class="cta-button">Get started Today</button>
+    </div>
+
+    <!-- ===== Features Section ===== -->
+    <div class="features-section">
+        <h1>Our Features</h1>
+
+        <!-- Feature Card 1 -->
+        <div class="feature-card">
+            <i class="fas fa-rocket feature-icon"></i>
+            <h3 class="feature-title">Lightning Fast</h3>
+            <p class="feature-description">
+                Optimised performance that delivers results at the speed of light.
+                Experience unprecedented efficiency.
+            </p>
+        </div>
+
+        <!-- Feature Card 2 -->
+        <div class="feature-card">
+            <i class="fas fa-lock feature-icon"></i>
+            <h3 class="feature-title">Secure & Safe</h3>
+            <p class="feature-description">
+                Enterprise-grade security with advanced encryption.
+                Your data is protected with military-level protocols.
+            </p>
+        </div>
+
+        <!-- Feature Card 3 -->
+        <div class="feature-card">
+            <i class="fas fa-phone feature-icon"></i>
+            <h3 class="feature-title">Mobile Ready</h3>
+            <p class="feature-description">
+                Responsive design that works perfectly on all devices.
+                Access your solutions anywhere, anytime.
+            </p>
+        </div>
+
+        <!-- Feature Card 4 -->
+        <div class="feature-card">
+            <i class="fas fa-lightbulb feature-icon"></i>
+            <h3 class="feature-title">Smart Analytics</h3>
+            <p class="feature-description">
+                AI-powered insights that drive intelligent business decisions.
+                Transform data into actionable intelligence.
+            </p>
+        </div>
+    </div>
+
+    <!-- ===== About Section ===== -->
+    <div class="about-section">
+        <!-- Company overview text -->
+        <div class="about-text">
+            <h2>About Our Company</h2>
+            <p>
+                We are pioneers in digital transformation, helping businesses navigate the complex landscape of modern technology.
+                Our innovative solutions have empowered thousands of companies worldwide.
+            </p>
+            <p>
+                With over a decade of experience, we combine cutting-edge technology with deep industry expertise to deliver solutions
+                that not only meet today's challenges but anticipate tomorrow's opportunities.
+            </p>
+            <p>
+                Our commitment to excellence and customer success has made us a trusted partner for businesses of all sizes,
+                from start-ups to Fortune 500 companies.
+            </p>
+        </div>
+
+        <!-- About highlight area -->
+        <div class="about-highlight">
+            <h4>Innovation</h4>
+        </div>
+    </div>
+
+    <!-- ===== Team Section ===== -->
+    <div class="team-section">
+        <h2 class="section-title">Meet the Team</h2>
+
+        <!-- Team Member 1 -->
+        <div class="team-member">
+            <img src="peeps-avatar.png" alt="Alex Smith" class="team-photo">
+            <p class="team-name">Alex Smith</p>
+            <p class="team-role">Chief Technology Officer</p>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-member">
+            <img src="peeps-avatar(1).png" alt="Maria Johnson" class="team-photo">
+            <p class="team-name">Maria Johnson</p>
+            <p class="team-role">Lead Designer</p>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-member">
+            <img src="peeps-avatar(2).png" alt="Robert Davis" class="team-photo">
+            <p class="team-name">Robert Davis</p>
+            <p class="team-role">Senior Developer</p>
+        </div>
+    </div>
+
+    <!-- ===== Contact Section ===== -->
+    <div class="contact-section">
+        <h2>Get In Touch</h2>
+
+        <!-- Contact form -->
+        <div class="contact-form-section">
+            <form action="" class="contact-form">
+
+                <!-- Name field -->
+                <label for="full-name">Full Name</label><br>
+                <input type="text" id="full-name" placeholder="Enter your full name"><br>
+
+                <!-- Email field -->
+                <label for="email">Email Address</label><br>
+                <input type="text" id="email" placeholder="Enter your email"><br>
+
+                <!-- Phone field -->
+                <label for="phone">Phone Number</label><br>
+                <input type="text" id="phone" placeholder="Enter your phone number"><br>
+
+                <!-- Message field -->
+                <label for="message">Message</label><br>
+                <textarea id="message" placeholder="Tell us about your project"></textarea><br>
+
+                <!-- Submit button -->
+                <button class="submit-button">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- ===== Footer Section ===== -->
+    <footer class="footer">
+        <ul class="footer-links">
+            <li><a href="">Policy</a></li>
+            <li><a href="">Terms of Service</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Careers</a></li>
+        </ul>
+        <p class="footer-note">&#9400; TechSolutions. All rights reserved.</p>
+    </footer>
+
