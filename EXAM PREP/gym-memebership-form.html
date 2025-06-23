@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+       
+    <meta charset="UTF-8">
+       
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+        <div class="container-main-form">
+        <header class="form-header">
+                    <h1 class=" main-heading"> Richfield Gym</h1>
+                    <p class="sub-heading"> Complete Membership Registration Form</p>
+        </header>
+        <section class="section-personal-info">
+                    <h3 class="setion-title">Personal Information</h3>
+            <hr>
+            <div class=" form-row-1" style="display: flex; ">
+                <div class="form-group-1">
+                            <label id="name" for="firstname">First Name</label>
+                            <br>
+                            <input id="name-input" type="text" placeholder="Enter your first name">
+                </div>
+                <div class="form-group-2" style="margin-left: 150px;">
+                            <label id="name" for="firstname">Last Name</label>
+                            <br>
+                            <input id="name-input" type="text" placeholder="Enter your last name">
+                </div>
+
+            </div>
+                 
+                   
+
+            <div class="form-group-3">
+                <label id="email" for="email">Email</label>
+                <br>
+                <input id="email-input" type="text" placeholder="youremail123@gmail.com">
+            </div>
+
+            <div class="form-row-4" style="margin-left: 150px;">
+                <div class="form-group-4">
+                      <label id="phone" for="phone">Phone Number</label>
+                    <br>
+                    <input type="text" id="phone-input" class="input-field" placeholder="+27 999 777 5565" /> 
+                </div>
+                <div class="form-group-5">
+                    <label for="d.o.b">Date of birth</label>
+                    <br> 
+                     <input id="date-input" type="date">  
+                </div>     
+            </div>
+
+
+                     <br>
+    <label><input type="radio" name="gender" value="male" /> Male</label>
+    <label><input type="radio" name="gender" value="female" /> Female</label>
+    <label><input type="radio" name="gender" value="other" /> Other</label>
+    <label><input type="radio" name="gender" value="prefer-not" /> Prefer not to say</label>
+
+    </div>
+
+           
+
+   
+         
+       
+    
+    </section>
+
+
+
+        <section class="membership-details">
+                <h2 class="section-title">Membership Details</h2>
+        <hr>
+               
+        <div class="membership-options">
+            <div class="membership-card" id="basic">
+                                <p>Basic</p>
+                                <p>$29/month</p>
+                                <p> Gym Access, Locker Room</p>
+                            </div>
+                        <div class="membership-card" id="premium">
+                                <p>Premium</p>
+                                <p>$49/month</p>
+                                <p>Basic + Classes, Pool</p>
+                            </div>
+                        <div class="membership-card" id="elite">
+                                <p>Elite</p>
+                                <p>$79/month</p>
+                                <p> Premium + Personal Trainer</p>
+                            </div>
+                        <div class="membership-card" id="family">
+                                <p>Family</p>
+                                <p>$99/month</p>
+                                <p> Up to 4 Members</p>
+                            </div>
+                   
+        </div>
+                <div class="form-group-6">
+            <label id="workout-times">Preferred Workout Times</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" /> Morning (06–12pm)</label>
+                <label><input type="checkbox" /> Afternoon (12–6pm)</label>
+                <label><input type="checkbox" /> Evening (6–10pm)</label>
+                <label><input type="checkbox" /> Late Night (10–12pm)</label>
+            </div>
+        </div>
+
+        <div class="form-group-7">
+            <label id="fitness-goals">Fitness Goals</label>
+            <div class="checkbox-group">
+                <label><input type="checkbox" /> Weight Loss</label>
+                <label><input type="checkbox" /> Muscle Gain</label>
+                <label><input type="checkbox" /> Cardio Health</label>
+                <label><input type="checkbox" /> Strength Training</label>
+                <label><input type="checkbox" /> Flexibility</label>
+            </div>
+        </div>
+
+
+           
+    </section>
+        <section class="section-health-info">
+        <h2 class="section-title">Health and Emergency Contact</h2>
+        <hr>
+
+        <div class="form-group-8">
+            <label for="medical-conditions">Medical Conditions / Allergies</label>
+            <br>
+            <textarea id="medical-conditions" class="textarea-field"
+                placeholder="Please indicate any allergies or medical conditions we should be aware of"></textarea>
+        </div>
+
+        <div class="form-group-9">
+            <label for="medication">Current Medication</label>
+            <br>
+            <textarea id="medication" class="textarea-field" placeholder="List any medication you are on"></textarea>
+        </div>
+
+        <div class="form-group-10">
+            <label for="emergency-name">Emergency Contact Name</label>
+            <br>
+            <input type="text" id="emergency-name" class="input-field" placeholder="Full name of emergency contact" />
+        </div>
+
+        <div class="form-row-5">
+            <div class="form-group-11">
+                <label for="emergency-phone">Emergency Phone</label>
+                <br>
+                <input type="text" id="emergency-phone-input" class="input-field" />
+            </div>
+            <div class="form-group-12">
+                <label for="relationship">Relationship</label>
+                <br>
+                <select id="relationship" class="select-field">
+                    <option value="">Select Relationship</option>
+                    <option value="parent">Parent</option>
+                    <option value="sibling">Sibling</option>
+                    <option value="spouse">Spouse</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+        </div>
+         <div class="form-group">
+        <label for="profile-photo">Profile Photo (Optional)</label>
+        <br>
+        <button class="upload-button" id="profile-photo">Click to upload photo or drag and drop</button>
+    </div>
+
+
+    </section>
+
+
+
+
+
+       
+   
+    </section>
+
+    <section class="section-payment-info">
+        <h2 class="section-title">Payment Information</h2>
+        <hr>
+        <div class="form-group">
+            <label for="payment-method">Payment Method</label>
+            <select id="payment-method" class="select-field">
+                <option value="">Select Payment Method</option>
+                <option value="credit">Credit Card</option>
+                <option value="debit">Debit Card</option>
+                <option value="eft">EFT</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="card-number">Card Number</label>
+            <input type="text" id="card-number" class="input-field" />
+        </div>
+
+        <div class="form-row">
+            <div class="form-group">
+                <label for="expiry-date">Expiry Date</label>
+                <input type="date" id="expiry-date" class="input-field" />
+            </div>
+            <div class="form-group">
+                <label for="cvv">CVV</label>
+                <input type="text" id="cvv" class="input-field" placeholder="123" />
+            </div>
+        </div>
+        <div class="form-actions">
+        <button class="btn reset-btn">Reset Form</button>
+        <button class="btn draft-btn">Save Draft</button>
+        <button class="btn submit-btn">Submit Registration</button>
+    </div>
+    </section>
+
+    
+    </div>
+
+
+</body>
+
+
+</html>
+
+
+
+
+
+
+
+
+
+
+/* === Container & Structure === */
+body {
+    font-family: monospace;
+    width: 890px;
+    box-shadow: 5px 5px 5px 5px rgb(107, 105, 105);
+    border-radius: 10px;
+    padding: 20px;
+}
+.container-main-form,
+.membership-details,
+.section-health-info, 
+.section-payment-info {
+     box-shadow: 5px 5px 5px 5px rgb(107, 105, 105);
+    border-radius: 10px;
+     padding: 20px;
+}
+
+
+.form-header { 
+    color: red;
+    text-align: center;
+}
+
+.sub-heading {
+    color: black;
+}
+ .form-row-1 {
+    display: flex;
+ }
+ .form-group-1,
+ .form-group-2 {
+    
+   
+    
+   
+ }
+ #name {
+   margin-left:-62px ;
+ }
+ #name-input {
+    border:2px solid rgb(196, 13, 13);
+    height: 30px;
+    width: 370px;
+     margin-left:-5px ;
+    border-radius: 5px;
+    margin-top: 7px;
+ }
+ #email-input  {
+     border:2px solid rgb(196, 13, 13);
+    height: 30px;
+    width: 860px;
+    border-radius: 5px;
+    margin-top: 7px;
+ }
+ .form-row-4 {
+   display: flex;
+  border:2px solid rgb(196, 13, 13); 
+        margin-left: -10px;
+   
+ }
+ .form-group-4, 
+ .form-group-5 {
+   
+   
+ }
+ 
+ #date-input,
+ #phone-input {
+     border:2px solid rgb(196, 13, 13);
+    height: 30px;
+     margin-top: 7px;
+     width: 370px;
+     border-radius: 5px;
+      text-align: left;
+ }
+
+.membership-options { 
+    display: flex;
+}
+.membership-card {
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    width: 400px;
+}
+.membership-card:hover {
+    border: 2px solid red;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+#workout-times, #fitness-goals {
+    font-size: large;
+    margin-bottom: 100px;
+}
+.checkbox-group {
+    margin: 10px;
+}
+.textarea-field { 
+    width: 800px;
+    height: 60px;
+    margin: 10px;
+}
+#emergency-name {
+    width: 600px;
+    height: 30px;
+    margin: 10px;
+    font-style: italic;
+}
+.form-row-5 {
+    display: flex;
+}
+ .form-group-12 {
+   margin-left: 80px; 
+   margin-bottom: 20px;
+}
+#emergency-phone-input,
+#relationship {
+    width: 380px;
+    height: 25px;
+    margin-top: 5px;
+    
+
+}
+.upload-button {
+    width: 700px;
+    height: 100px;
+    border-radius: 20px;
+    border: 2px dashed red;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+.upload-button:hover {
+    opacity: 0.5;
+    color: black;
+    cursor: pointer;
+}
+
+.section.health-info { }
+
+.section.payment-info { }
+
+/* === Headings & Titles === */
+.main-heading { }
+
+.sub-heading { }
+
+.section-title { }
+
+/* === Form Rows & Groups === */
+.form-row-1 { }
+
+.form-row-2 { }
+
+.form-row { }
+
+.form-group { }
+
+.form-group-1 { }
+
+.form-group-2 { }
+
+.form-group-3 { }
+
+/* === Inputs, Selects, and Textareas === */
+.input-field { }
+
+.select-field { }
+
+
+
+/* === Radio & Checkbox Groups === */
+.checkbox-group { }
+
+.radio-group { }
+
+/* === Membership Options === */
+.membership-options { }
+
+.membership-card { }
+
+#basic { }
+
+#premium { }
+
+#elite { }
+
+#family { }
+
+/* === Upload Button === */
+.upload-button { }
+
+/* === Payment & Action Buttons === */
+.form-actions { }
+
+.btn { }
+
+.reset-btn { }
+
+.draft-btn { }
+
+.submit-btn { }
