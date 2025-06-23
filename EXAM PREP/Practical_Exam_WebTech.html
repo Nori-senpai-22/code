@@ -57,3 +57,300 @@
 </body>
 
 </html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: monospace;
+            width: 800px;
+         
+            background-color: rgb(255, 255, 255);
+            padding: 20px;
+
+
+        }
+
+
+        .main-heading {
+            color: rgb(173, 22, 22);
+            text-align: center;
+
+
+        }
+
+
+        .main-heading-sub {
+            text-align: center;
+
+
+        }
+
+
+        .container-1 {
+            background-color: rgb(255, 253, 253);
+            border-radius: 10px;
+            margin: 12px;
+            padding: 20px;
+        }
+
+
+        input {
+
+
+
+            border-radius: 5px;
+            border: 2px solid rgb(173, 22, 22);
+        }
+
+
+        .main-container {
+            display: flex;
+        }
+
+
+        .sub-container {
+            border: 2px solid black;
+            margin: 10px;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+
+
+        }
+
+
+        .sub-container:hover {
+            border: 2px solid rgb(173, 22, 22);
+            transition: 0.9ms ease-in-out;
+        }
+
+
+        #startdate {
+            margin: 20px;
+            color: red;
+        }
+
+
+        #startcalender {
+            height: 30px;
+            width: 550px;
+            margin-top: 10px;
+            margin-bottom: 20px;
+        }
+
+
+        #workouttime {
+            margin-bottom: 30px;
+        }
+        body,
+        .container-1,
+        .membership-details,
+        .payment-information,
+        .Health {
+            box-shadow: 5px 5px 5px 5px rgb(182, 182, 179);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px;
+        }
+    </style>
+</head>
+
+
+<body>
+    <div class="container-1">
+        <h1 class=" main-heading"> Richfield Gym</h1>
+        <p class="main-heading-sub"> Complete Membership Registration Form</p>
+        <p>Personal Information</p>
+        <label for="firstname">First Name</label>
+        <br>
+        <input type="text" placeholder="Enter your first name">
+        <br>
+        <label for="Lastname">Last Name</label>
+        <br>
+        <input type="text" placeholder="Enter your last name">
+        <br>
+        <label for="email">Email </label>
+        <br>
+        <input type="email" placeholder="youremail123@gmail.com">
+        <br>
+
+
+        <label for="">Phone Number</label>
+        <input type="text" placeholder="+27 999 777 5555">
+        <br>
+        <label for="">Gender</label>
+        <br>
+
+
+        <input type="radio">
+        <label for="">Male</label>
+        <input type="radio">
+        <label for="">female</label>
+        <input type="radio">
+        <label for="">Other</label>
+        <input type="radio">
+        <label for="">Prefer not to say</label>
+    </div>
+
+
+
+    <section class="membership-details">
+        <h2>Membership Details </h2>
+        <H3>Membership Type</H3>
+        <div class="main-container">
+            <div class="class sub-container">
+                <p>Basic</p>
+                <p>$29/month</p>
+                <p> Gym Access, Locker Room</p>
+            </div>
+            <div class="class sub-container">
+                <p>Premium</p>
+                <p>$49/month</p>
+                <p>Basic + Classes, Pool</p>
+            </div>
+            <div class="class sub-container">
+                <p>Elite</p>
+                <p>$79/month</p>
+                <p> Premium + Personal Trainer</p>
+            </div>
+            <div class="class sub-container">
+                <p>Family</p>
+                <p>$99/month</p>
+                <p> Up to 4 Members</p>
+            </div>
+        </div>
+        <form action="" id="form-2">
+            <label for="" id=" startdate ">Preffered Start Date</label>
+            <br>
+            <input type="date" id="startcalender">
+            <br>
+            <label for=" workouttimes" id="workouttimes"> Preffered Workout Times</label>
+            <br>
+            <input type="checkbox">
+            <label for="">Morning (06-12pm)</label>
+            <input type="checkbox">
+            <label for="">Afternoon (12-6pm)</label>
+            <input type="checkbox">
+            <label for="">Evening (6-10pm)</label>
+            <input type="checkbox">
+            <label for="">Late Night (10-12pm)</label>
+            <br>
+            <label for="">
+                Fitness Goals
+            </label>
+            <br>
+            <input type="checkbox">
+            <label for="">Weight Loss</label>
+            <input type="checkbox">
+            <label for="">Muscle Gain</label>
+            <input type="checkbox">
+            <label for="">Cardio Health</label>
+            <input type="checkbox">
+            <label for="">Strength Training</label>
+            <input type="checkbox">
+            <label for="">Flexibility</label>
+        </form>
+
+
+    </section>
+    <section class="Health">
+        <h2> Health and Emergency Contact</h2>
+        <hr>
+        <label for="">Medical Condtions/Allergies</label>
+    <br>
+        <textarea name="" id="" style="width: 720px; height: 100px; margin: 10px;" >
+           Please inicate any allergies or medical conditons we should be aware of
+        </textarea>
+        <br>
+        <label for=""> Current Medication</label>
+        <br>
+        <textarea name="" id="" style="width: 720px; margin: 10px;"> List nay medication that you are on</textarea>
+        <br>
+        <label for=""> Emergency Contact  Name </label>
+        <br>
+        <input type="text" placeholder="Full name of Emergency Contact "
+        style="width: 720px; height: 20px; border: 1px solid rgb(0, 0, 0); font-family: Monospace;" >
+        <br>
+        <div style=" display:flex; margin-top: 20px;">
+        <div  style="margin-right: 150px;">
+            <label for=" ">Emergency Contact Phone</label>
+            <br>
+            <input type="text" style="border:1px solid rgb(0, 0, 0)">
+        </div>
+            <br>
+        <div><label for="">Relationship </label>
+        <br>
+    <select name="" id="" style="width: 350px;height: 30px;border-radius: 10px;">
+        <option value="" >Select Relationship</option>
+    </select></div>
+        </div>
+        <br>
+        <label for="">Profile Photo(Optional)</label>
+        <br>
+        <button style="border: 2px dashed red; width: 720px; height: 50px;border-radius: 10px;">Click to upload photo or drag and drop </button>
+    </section>
+
+
+
+
+
+
+    <section class="payment-information">
+        <h2>Payment Information</h2>
+        <hr>
+        <label for=""> Payment Method</label>
+        <br>
+        <select name="" id="" style="width: 300px; height: 30px; margin-bottom: 15px; ">
+            <option value="pay-method">Select Payment Method</option>
+        </select>
+
+
+
+        <br>
+        <label for="">Card Number</label>
+        <br>
+        <input type="text" style="width: 300px; height: 30px; margin-bottom: 15px; ">
+        <br>
+        <div style="display:flex;"></div>
+        <label for="">Expiry Date</label>
+        <br>
+        <input type="date" style="width: 300px; height: 30px;">
+
+
+        <label for="">CVV</label>
+
+
+        <input type="text" placeholder="123" style="width: 300px; height: 30px;">
+        </div>
+        <div style="display: flex;">
+
+
+
+        </div>
+
+
+
+        <div style="display: flex; margin: 20px; align-items: center; justify-content: center;">
+            <button style="height: 25px; background-color: gray; border: none;
+            width: 100px;color: white;border-radius: 5px;">Reset Form</button>
+            <button style="height: 25px; background-color: gray; border: none;
+            width: 100px;color: white;border-radius: 5px;margin:10px;">Save Draft</button>
+            <button style="height: 25px; background-color: rgb(202, 31, 31); border: none;
+            width: 150px;color: rgb(255, 255, 255);border-radius: 5px;margin:10px;">Submit Registration</button>
+        </div>
+    </section>
+
+
+</body>
+
+
+</html>
